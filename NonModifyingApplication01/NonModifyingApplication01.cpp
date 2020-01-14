@@ -16,7 +16,7 @@ struct Print {
 	}
 };
 
-int main() {
+int main() { 
 	int t[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 	list <int> l1(t, t + 10);
 	cout << "Print all elements of the container - using function\n";
